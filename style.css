@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#add-task {
+    padding: 10px 20px;
+    background-color: #0623a7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #f90edd;
+}
